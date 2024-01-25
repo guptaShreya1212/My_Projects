@@ -1,0 +1,45 @@
+<web-app>
+    <welcome-file-list>
+        <welcome-file>signin.html</welcome-file>
+    
+    
+    </welcome-file-list>
+    
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SignupServlet</servlet-name>
+        <url-pattern>/SignupServlet</url-pattern>
+    </servlet-mapping>
+    
+     <servlet-mapping>
+        <servlet-name>AdminServlet</servlet-name>
+        <url-pattern>/AdminServlet</url-pattern>
+    </servlet-mapping>
+   <servlet-mapping>
+        <servlet-name>ViewServlet</servlet-name>
+        <url-pattern>/ViewServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.server.LoginServlet</servlet-class>
+    </servlet>
+    <servlet>
+    <servlet-name>SignupServlet</servlet-name>
+    <servlet-class>com.server.SignupServlet</servlet-class>
+    </servlet>
+    
+    <servlet>
+    <servlet-name>AdminServlet</servlet-name>
+    <servlet-class>com.server.AdminServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ViewServlet</servlet-name>
+        <servlet-class>com.server.ViewServlet</servlet-class>
+    </servlet>
+    
+</web-app>

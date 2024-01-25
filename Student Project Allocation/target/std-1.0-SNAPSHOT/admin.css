@@ -1,0 +1,141 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 29-Dec-2023, 4:07:03 pm
+    Author     : shreya
+*/
+
+.container{
+    max-width:1200px;
+    margin:0 auto;
+}
+section{
+padding:2rem;
+
+}
+.navbar{
+    background-color:#0f1111; font-family:calibri; padding-right:15px; padding-left:15px;
+   }
+   .navdiv{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+   }
+   .logo a{
+   font-size:35px; font-weight:600; color:white;
+   }
+   .border
+   {
+    border:1.5px solid transparent;
+   }
+   .border:hover{
+    border:2.5px solid black;
+   }
+   li{
+    list-style:none; display:inline-block;
+   }
+   li a{
+    color:white;
+    font-size:18px; font-weight:bold; margin-right: 25px;
+   }
+
+.btn,
+.option-btn,
+.delete-btn{
+    display:block;
+    width:100%;
+    text-align:center;
+    background-color:rgb(17, 17, 112);
+    color:white;
+    font-size:1.7rem;
+    padding:1.2rem 3rem;
+    border-radius: .5rem;
+    cursor:pointer;
+    margin-top:1rem;
+
+}
+.btn:hover,
+.option-btn:hover,
+.delete-btn:hover {
+    background-color: black;
+}
+.option-btn{
+    background-color: orange;
+}
+
+.delete-btn{
+    margin-top: 0;
+    background-color: red;
+}
+
+.add-product-form{
+max-width:50rem;
+background:rgb(179, 176, 176);
+border-radius: .5rem;
+padding:2rem;
+margin:0 auto;
+margin-top:2rem;
+}
+
+
+.add-product-form h3{
+font-size:2.5rem;
+margin-bottom: 1rem;
+color:var(--black);
+text-transform:uppercase;
+text-align:center;
+}
+
+.add-product-form .box{
+text-decoration: none;
+padding:1.2rem 1.4rem;
+font-size:1.7rem;
+color:black;
+border-radius: .5rem;
+background-color:white;
+margin:1rem 0rem;
+width:100%;
+}
+
+.details-display{
+    margin:2rem 0;
+    overflow-y:scroll;
+
+}
+.details-display .details-display-table{
+    padding-left:15%;
+    padding-right:15%;
+    width:100%;
+
+}
+.details-display .details-display-table thead{
+    padding:2rem;
+    font-size:2rem;
+    background:rgb(198, 197, 197);
+
+}
+.details-display .details-display-table th{
+    padding  :1rem;
+    font-size:1.6rem;
+  
+}
+.details-display .details-display-table td{
+    padding  :1rem;
+    font-size:1.6rem;
+    border-bottom:var(--border);
+}
+.add-product-form .box1 {
+text-decoration: none;
+padding:1.2rem 1.4rem;
+font-size:1.7rem;
+color:black;
+border-radius: .5rem;
+background-color:white;
+margin:1rem 1rem;
+width:85%;
+}
+.add1 {
+    background-color: rgb(211, 219, 219);
+}

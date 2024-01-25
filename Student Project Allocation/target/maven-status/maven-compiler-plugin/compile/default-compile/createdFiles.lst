@@ -1,0 +1,4 @@
+com\server\SignupServlet.class
+com\server\LoginServlet.class
+ViewServlet.class
+com\server\AdminServlet.class

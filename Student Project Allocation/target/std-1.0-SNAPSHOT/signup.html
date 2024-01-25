@@ -1,0 +1,63 @@
+ 
+    <html>
+<head> <title> Log in</title>
+    <link rel="stylesheet" href="signin.css">
+
+</head>
+<body>
+   // <input type="hidden" id="status" value=request.getAttribute(status)>
+     <div class="navbar">
+       <div class="navdiv ">
+        <div class="logo border"><a href='#'>Smile</a></div>
+       
+            <ul>
+                <li ><a href ='#'> Home </a></li> 
+                <li><a href ='#'> Services </a></li>
+                <li><a href ='#'> About Us </a></li>
+                <li><a href ='#'> Contact </a></li>
+                <button><a href="#"> Login </a></button>
+                <button><a href='#'> Signup </a></button>
+                </li>
+            </ul>
+        
+     </div>
+    </div>
+    <div class="content">
+        <h1> Student <br> <span>Project Allocation </span></h1>
+    </div>
+
+    <div class="form border" >
+         <form action="SignupServlet" method="post" class="add-details" enctype="application/x-www-form-urlencoded">
+
+        <h2> Signup </h2>
+        <input type="text" name="name" placeholder="enter name here"> <br/> <br/>
+        <input type="email" name="email" required="" placeholder="Enter email here"> <br/><br/> <br/>
+        <input type="password" name="password" required="" placeholder="Enter password Here"> <br/> <br/>
+           <input type="text" name="contact" required="" placeholder="Enter your contact"> <br/> <br/>
+         <button class="btnn" ><a href='#'>Signup</a></button> <br/><br/>
+            
+         </form>  
+     </div> 
+<!--    <script>
+        document.getElementById("signupForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            fetch("SignupServlet", {
+                method: "POST",
+                body: new FormData(document.getElementById("signupForm"))
+            })
+            .then(response => {
+                if (response.ok) {
+                    alert("Signup successful!");
+                    // Redirect or perform any other actions upon successful signup
+                } else {
+                    alert("Signup failed. Please try again.");
+                }
+            })
+            .catch(error => {
+                console.error("Error:", error);
+            });
+        });
+    </script>-->
+</body>
+</html>
+

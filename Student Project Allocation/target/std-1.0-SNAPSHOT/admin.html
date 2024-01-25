@@ -1,0 +1,42 @@
+
+
+
+<html>
+    <head> <title> Admin </title>
+       <link rel="stylesheet" href="admin.css"> 
+    </head>
+    <body>
+
+        
+        <div class="navbar">
+            <div class="navdiv ">
+             <div class="logo border"><a href='#'>Smile</a></div>
+            
+                 <ul>
+                     <li ><a href ='#'> Home </a></li> 
+                     <li><a href ='displayData.jsp'>View</a></li>
+                     <li><a href ="admin.html"> Add Student </a></li>
+                     <li><a href ='#'> Help  </a></li>
+                     <li><a href ='#'> Contact </a></li>
+                     
+                     
+                 </ul>
+             
+          </div>
+         </div>
+        <div class="container">
+            <section>
+                <form action="AdminServlet" method="post" class="add-product-form" enctype="application/x-www-form-urlencoded">
+
+                    <h3> Add new Student </h3>
+                <input type="text" name="student_name" placeholder="student name" class="box" required="">
+                <input type="number" name="roll_no" placeholder="roll no" class="box" required="">
+                <input type="text" name="project_name" placeholder="project_name" class="box" required="">
+                <input type="number" name="team_member" placeholder="team_member" class="box" required="">
+                <input type="submit" value="add student" name="add_student" class="btn">
+                </form>
+                
+            </section>
+        </div>
+    </body>
+</html>
